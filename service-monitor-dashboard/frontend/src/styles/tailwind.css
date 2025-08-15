@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #1a202c; /* Dark background */
+    color: #f7fafc; /* Light text color */
+}
+
+.dark-mode {
+    background-color: #2d3748; /* Darker background for dark mode */
+}
+
+.sidebar {
+    background-color: #2d3748; /* Sidebar background */
+}
+
+.topbar {
+    background-color: #4a5568; /* Topbar background */
+}
+
+.card {
+    background-color: #4a5568; /* Card background */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 1rem; /* Padding inside cards */
+}
+
+.button {
+    background-color: #3182ce; /* Button background */
+    color: #ffffff; /* Button text color */
+}
+
+.button:hover {
+    background-color: #2b6cb0; /* Button hover background */
+}
